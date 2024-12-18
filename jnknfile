@@ -9,7 +9,7 @@ pipeline {
         }
         stage('git clone') {
             steps {
-                git 'https://github.com/Pritam-Khergade/student-ui.git'
+                git 'https://github.com/Anshi-devops/parle-g.git'
             }
         }    
         stage('Docker install') {
